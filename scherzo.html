@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culo_bianco</title>
+    <style>
+        #ci{
+            color: aquamarine;background-color: blueviolet;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: red;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="ci">GIUSEPPE BELLO MIO CLICCA ER BUTTON</p>
+        <button id="a">
+            Bello mio
+        </button>
+    </div>
+    <script>
+        document.getElementById("a").addEventListener("click", function() {
+            window.location.href = './scherzo1.html'; 
+        });
+    </script>
+</body>
+</html>
